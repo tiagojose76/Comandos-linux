@@ -1,0 +1,38 @@
+sudo apt install ubuntu-restricted-extras -y
+
+sudo apt-get install build-essential -y
+
+sudo apt install openjdk-17-jdk -y
+
+sudo apt install preload -y
+
+sudo apt install synaptic -y
+
+sudo apt-get install git
+
+https://github.com/shiftkey/desktop
+
+	FLUTTER
+------------------------------------------------
+git clone https://github.com/flutter/flutter.git
+cd flutter
+export PATH="$PATH:`pwd`/bin"  
+flutter doctor --android-licenses
+flutter doctor
+
+------------------------------------------------
+	PHP
+	
+sudo add-apt-repository ppa:ondrej/php
+sudo apt update
+sudo apt install php8.2
+php -v
+------------------------------------------------
+Versionalisar PHP:
+instala qualquer versão do php
+
+sudo update-alternatives --list  php  (lista eles)
+sudo update-alternatives --set php /usr/bin/php8.2 (seta eles no sistema)
+
+------------------------------------------------
+sudo apt update; sudo apt upgrade ; sudo apt dist-upgrade -y
