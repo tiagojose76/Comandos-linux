@@ -1,0 +1,31 @@
+Gnome 41 no Linux Mint
+
+comandos:
+
+sudo apt update && sudo apt upgrade -y
+
+veja se o sudo tem status de root 
+
+sudo whoami
+
+instale o PPA para o x11:
+sudo add-apt-repository ppa:devacom/x11 -y
+
+instale o PPA para o Gnome 40:
+sudo add-apt-repository ppa:devacom/gnome-40 -y
+
+instale o PPA para o Gnome 41:
+sudo add-apt-repository ppa:devacom/gnome-41 -y
+
+atualize a lista de pacotes:
+sudo apt-get update
+
+instale o ambiente Gnome 41:
+sudo apt install ubuntu-desktop gnome-shell gnome-control-center
+
+para gerenciador de sessão escolha o  GDM3
+
+
+sudo apt update && sudo apt upgrade
+
+reinicie o pc
