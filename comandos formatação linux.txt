@@ -4,9 +4,6 @@ sudo apt-get install build-essential -y
 
 sudo apt install openjdk-17-jdk -y
 
-sudo apt-get update
-sudo apt-get -y install cpufrequtils
-
 sudo apt install preload -y
 
 sudo apt install prelink -y

@@ -1,0 +1,9 @@
+sudo apt-get update
+sudo apt-get -y install cpufrequtils
+
+sudo cpufreq-set -c 0 -g performance
+
+cpufreq-info
+
+Para verificar se o comando sudo cpufreq-set -c 0 -g performance está funcionando, você pode usar o comando cpufreq-info para ver as configurações atuais da CPU.
+
